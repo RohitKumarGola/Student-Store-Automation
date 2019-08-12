@@ -1,0 +1,26 @@
+url:value:staging.macmillan-learning.com/college/us
+signup:xpath://a[@href="/college/us/login"]
+forgot:css:a[title]
+resetpass:css:button#resetpassword
+SecurityAns:css:input#answerText
+SubmitAns:css:button#submitanswer
+gmail_url:value:accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession
+email:css:input[type="email"]	
+password:xpath://div[@class='Xb9hP']//input[@type='password']
+search_mail:css:input[placeholder="Search mail"]
+mail:css:tr.zA.zE
+logo:xpath://tbody//tr//td//img[@alt="Instructor Catalog"]
+click:xpath://img[@class="ajz"]
+sender:xpath:(//span[@email="noreply@mldev.cloud" ])[4]
+receiver:xpath:(//span[@email="demotest18062019+30@gmail.com" ])[2]
+subject:css:h2.hP
+link:xpath://a[contains(text(),"Reset Password")]
+p1:xpath:(//td[@dir="ltr"]//p)[1]
+p2:xpath:(//td[@dir="ltr"]//p)[2]
+p3:xpath:(//td[@dir="ltr"]//p)[3]
+newpass:css:input#password
+confirmpass:css:input#confirmPassword
+resetpassword:css:button#update
+login:css:a#refererLink
+newpassword:css:input[type="password"]
+signin:css:button#signin

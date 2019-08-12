@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-12T04:41:25Z" name="Default suite" finished-at="2019-08-12T04:42:27Z" duration-ms="61516">
+    <groups>
+    </groups>
+    <test started-at="2019-08-12T04:41:25Z" name="Default test" finished-at="2019-08-12T04:42:27Z" duration-ms="61516">
+      <class name="com.qa.studentstoreAtumation.ForgetPasswordTest">
+        <test-method signature="launch_driver()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:25Z" name="launch_driver" finished-at="2019-08-12T10:11:40Z" duration-ms="14857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_driver -->
+        <test-method signature="click_on_signup()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:40Z" name="click_on_signup" finished-at="2019-08-12T10:11:43Z" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_signup -->
+        <test-method signature="click_on_forgot()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:43Z" name="click_on_forgot" finished-at="2019-08-12T10:11:44Z" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_forgot -->
+        <test-method signature="launch_gmail_page()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:44Z" name="launch_gmail_page" finished-at="2019-08-12T10:11:49Z" duration-ms="5098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_gmail_page -->
+        <test-method signature="login_by_gmail()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:49Z" name="login_by_gmail" finished-at="2019-08-12T10:11:51Z" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_by_gmail -->
+        <test-method signature="search_mail()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:11:51Z" name="search_mail" finished-at="2019-08-12T10:12:13Z" duration-ms="21975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_mail -->
+        <test-method signature="logo_verify()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:13Z" name="logo_verify" finished-at="2019-08-12T10:12:23Z" duration-ms="10048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo_verify -->
+        <test-method signature="Ids_verify()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:23Z" name="Ids_verify" finished-at="2019-08-12T10:12:23Z" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ids_verify -->
+        <test-method signature="link_verify()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:23Z" name="link_verify" finished-at="2019-08-12T10:12:23Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link_verify -->
+        <test-method signature="content_verify()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:23Z" name="content_verify" finished-at="2019-08-12T10:12:23Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- content_verify -->
+        <test-method signature="clickOn_resetpassword()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:23Z" name="clickOn_resetpassword" finished-at="2019-08-12T10:12:23Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOn_resetpassword -->
+        <test-method signature="fill_newPassword()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:23Z" name="fill_newPassword" finished-at="2019-08-12T10:12:25Z" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill_newPassword -->
+        <test-method signature="again_login()[pri:0, instance:com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d]" started-at="2019-08-12T10:12:25Z" name="again_login" finished-at="2019-08-12T10:12:27Z" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- again_login -->
+      </class> <!-- com.qa.studentstoreAtumation.ForgetPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
