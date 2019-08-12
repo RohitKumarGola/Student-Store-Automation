@@ -24,3 +24,6 @@ resetpassword:css:button#update
 login:css:a#refererLink
 newpassword:css:input[type="password"]
 signin:css:button#signin
+hec:css:img.ajT
+myaccount:xpath://a[text()=" My Account"]
+changePassword:xpath://a[text()="Change Password"]

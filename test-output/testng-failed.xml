@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.studentstoreAtumation.ForgetPasswordTest">
+      <class name="com.qa.studentstoreAtumation.ResetPasswordTest">
         <methods>
-          <include name="search_mail"/>
-          <include name="logo_verify"/>
-          <include name="Ids_verify"/>
-          <include name="link_verify"/>
           <include name="again_login"/>
-          <include name="content_verify"/>
-          <include name="fill_newPassword"/>
-          <include name="clickOn_resetpassword"/>
+          <include name="Ids_verify"/>
         </methods>
-      </class> <!-- com.qa.studentstoreAtumation.ForgetPasswordTest -->
+      </class> <!-- com.qa.studentstoreAtumation.ResetPasswordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

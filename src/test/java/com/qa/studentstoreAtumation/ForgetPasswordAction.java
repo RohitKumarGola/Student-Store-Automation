@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -79,6 +80,25 @@ public class ForgetPasswordAction extends GetPage {
 		DataRead.getElement("search_mail").sendKeys("demotest18062019+30@gmail.com",Keys.ENTER);
 		waiting(5000);
 		DataRead.getElement("mail").click();
+		int attempts = 0;
+	    while(attempts < 2) {
+	        try {
+	        	if(DataRead.getElement("hec")!=null) {
+	    			System.out.println("Element is present");
+	    			
+	    			DataRead.getElement("hec").click();
+	    		}
+	    		else
+	    			System.out.println("Element is not spresent");
+	           
+	            break;
+	        } 
+	        catch(StaleElementReferenceException e) {
+	        }
+	        attempts++;
+	    }
+		
+		
 	}
 
 
@@ -94,8 +114,6 @@ public class ForgetPasswordAction extends GetPage {
 	public void Id_verify() throws InterruptedException {
 		
 		  DataRead.getElement("click").click();
-		
-		
 		  String senderExpected="noreply@mldev.cloud"; 
 		  String ReceiverExpected="demotest18062019+30@gmail.com"; 
 		  String SubjectExpected="Macmillan Learning :: Reset Password";

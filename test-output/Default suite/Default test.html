@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 12 10:11:25 IST 2019</td>
+<td>Started on:</td><td>Mon Aug 12 16:23:49 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>61 seconds (61516 ms)</td>
+<tr><td>Total time:</td><td>85 seconds (85622 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,196 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.Ids_verify()'><b>Ids_verify</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
+<td><div><pre>java.lang.AssertionError: expected [noreply@mldev.cloud] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.qa.studentstoreAtumation.ForgetPasswordAction.Id_verify(ForgetPasswordAction.java:120)
+	at com.qa.studentstoreAtumation.ResetPasswordAction.Id_verify(ResetPasswordAction.java:43)
+	at com.qa.studentstoreAtumation.ResetPasswordTest.Ids_verify(ResetPasswordTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace842331982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace842331982'><pre>java.lang.AssertionError: expected [noreply@mldev.cloud] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.qa.studentstoreAtumation.ForgetPasswordAction.Id_verify(ForgetPasswordAction.java:120)
+	at com.qa.studentstoreAtumation.ResetPasswordAction.Id_verify(ResetPasswordAction.java:43)
+	at com.qa.studentstoreAtumation.ResetPasswordTest.Ids_verify(ResetPasswordTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
+<tr>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.again_login()'><b>again_login</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[type=&quot;email&quot;]	&quot;}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;asda1777po02529&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-157-generic&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /tmp/.com.google.Chrome.2OnoUy}, goog:chromeOptions: {debuggerAddress: localhost:35014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6192b6665182a7dbf98b32c0511cca8
+*** Element info: {Using=css selector, value=input[type=&quot;email&quot;]	}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.qa.studentstoreAtumation.DataRead.getElement(DataRead.java:67)
+	at com.qa.studentstoreAtumation.ForgetPasswordAction.login(ForgetPasswordAction.java:164)
+	at com.qa.studentstoreAtumation.ResetPasswordAction.login(ResetPasswordAction.java:59)
+	at com.qa.studentstoreAtumation.ResetPasswordTest.again_login(ResetPasswordTest.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace577127077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace577127077'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[type=&quot;email&quot;]	&quot;}
+  (Session info: chrome=75.0.3770.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;asda1777po02529&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-157-generic&apos;, java.version: &apos;12.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /tmp/.com.google.Chrome.2OnoUy}, goog:chromeOptions: {debuggerAddress: localhost:35014}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6192b6665182a7dbf98b32c0511cca8
+*** Element info: {Using=css selector, value=input[type=&quot;email&quot;]	}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.qa.studentstoreAtumation.DataRead.getElement(DataRead.java:67)
+	at com.qa.studentstoreAtumation.ForgetPasswordAction.login(ForgetPasswordAction.java:164)
+	at com.qa.studentstoreAtumation.ResetPasswordAction.login(ResetPasswordAction.java:59)
+	at com.qa.studentstoreAtumation.ResetPasswordTest.again_login(ResetPasswordTest.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,70 +265,70 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.Ids_verify()'><b>Ids_verify</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.clickOn_resetpassword()'><b>clickOn_resetpassword</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.again_login()'><b>again_login</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.click_on_signup()'><b>click_on_signup</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>2</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.clickOn_resetpassword()'><b>clickOn_resetpassword</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.content_verify()'><b>content_verify</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.click_on_forgot()'><b>click_on_forgot</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
-<td></td>
-<td>1</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
-<tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.click_on_signup()'><b>click_on_signup</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
-<td></td>
-<td>2</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
-<tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.content_verify()'><b>content_verify</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.fill_credentials()'><b>fill_credentials</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.fill_newPassword()'><b>fill_newPassword</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.fill_idandscQ()'><b>fill_idandscQ</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
-<td>1</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>0</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.launch_driver()'><b>launch_driver</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.fill_newPassword()'><b>fill_newPassword</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
+<tr>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.for_resetPassword()'><b>for_resetPassword</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
+<td></td>
+<td>20</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
+<tr>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.launch_driver()'><b>launch_driver</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>14</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.launch_gmail_page()'><b>launch_gmail_page</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.launch_gmail_page()'><b>launch_gmail_page</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>5</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.link_verify()'><b>link_verify</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.link_verify()'><b>link_verify</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.login_by_gmail()'><b>login_by_gmail</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.login_by_gmail()'><b>login_by_gmail</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>1</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.logo_verify()'><b>logo_verify</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.logo_verify()'><b>logo_verify</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
 <td>10</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 <tr>
-<td title='com.qa.studentstoreAtumation.ForgetPasswordTest.search_mail()'><b>search_mail</b><br>Test class: com.qa.studentstoreAtumation.ForgetPasswordTest</td>
+<td title='com.qa.studentstoreAtumation.ResetPasswordTest.search_mail()'><b>search_mail</b><br>Test class: com.qa.studentstoreAtumation.ResetPasswordTest</td>
 <td></td>
-<td>21</td>
-<td>com.qa.studentstoreAtumation.ForgetPasswordTest@7bc1a03d</td></tr>
+<td>22</td>
+<td>com.qa.studentstoreAtumation.ResetPasswordTest@797badd3</td></tr>
 </table><p>
 </body>
 </html>
